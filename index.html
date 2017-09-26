@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <title>Maitreyee Joshi</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<style>
+
+h1 {font: Arial;}
+h4 {font: Arial;}
+
+</style>
+
+<body>
+
+<h1><center>Anagram Checker!</h1>
+  <div class="container-fluid" style="text-align:center">
+    <div class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text"><span>
+    <form class="form-inline">
+      <h4>Enter your strings:</h4>
+      <input type="text" id="word-entry-1" class="form-control" placeholder="Word 1"/>
+
+      <input type="text" id="word-entry-2" class="form-control" placeholder="Word 2"/>
+
+      <button class="btn btn-primary" id="run-check">
+          Check!
+      </button>
+    </form>
+    </span></span></div></pre></div>
+
+    <br>
+
+    <div id="result-success" class="alert alert-success hidden">
+      These words are anagrams!
+    </div>
+    <div id="result-failure" class="alert alert-danger hidden">
+      These words are not anagrams!
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
